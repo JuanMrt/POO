@@ -7,12 +7,12 @@ function Puntuacion(){
     }
      else if(puntuacion >=70 && puntuacion <=89 ){
        resultado = `Buen trabajo`;
-    } else if(puntuacion <70 && puntuacion >50) {
+    } else if(puntuacion < 70 && puntuacion >=50) {
     resultado = `Necesitas Mejorar`;
-    } else if(puntuacion >=0 && puntuacion <50) {
+    } else if(puntuacion >=0 && puntuacion <=49) {
         resultado = `NOOB`;
     } else {
         resultado = `puntuacion invalida`;
     }
     document.getElementById('lista').innerHTML = resultado;
-} 
+}
