@@ -6,5 +6,5 @@ function numerosPares() {
         numerosPares.push(i);
     }
 
-    document.getElementById("resultado").innerHTML = `Los primeros ${N} números pares son: ${numerosPares.join(', ')}`;
+    document.getElementById("lista").innerHTML = `Los primeros ${N} números pares son: ${numerosPares.join(', ')}`;
 }

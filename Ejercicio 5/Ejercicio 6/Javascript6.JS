@@ -8,5 +8,5 @@ function promedios() {
 
     let promedio = suma / 5;
 
-    document.getElementById("resultado").innerHTML = `El promedio de las 5 calificaciones es: ${promedio.toFixed(2)}`;
+    document.getElementById("lista").innerHTML = `El promedio de las 5 calificaciones es: ${promedio.toFixed(2)}`;
 }
