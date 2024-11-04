@@ -1,0 +1,29 @@
+body {
+    background-color: cadetblue;
+    display: flex;
+}
+
+.margin {
+    width: 70vh;
+    margin: 40px;
+    background-color: chocolate;
+    padding: 40px;
+}
+
+.border {
+    margin: 40px;
+    background-color: brown;
+    padding: 40px;
+}
+
+.padding {
+    margin: 40px;
+    background-color: burlywood;
+    padding: 40px;
+}
+
+.contenido {
+    margin: 40px;
+    background-color: beige;
+    padding: 40px;
+}
